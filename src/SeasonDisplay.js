@@ -22,7 +22,7 @@ const SeasonDisplay = (props) => {
   console.log(season);
   const { text, iconName } = seasonConfig[season];
   return (
-    <div className={`season-display  $(season)`}>
+    <div className={`season-display  ${season}`}>
       <i className={`icon-right  massive ${iconName} icon`} />
 
       <h1>{text}</h1>
